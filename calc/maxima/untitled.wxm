@@ -1,0 +1,48 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 0.8.5 ] */
+
+/* [wxMaxima: input   start ] */
+kill(all);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+l1:1; l2:19; a1:sqrt(0.001); a2:sqrt(0.0001); w1:0.00078; w2:0.000624;
+a1 : 1; a2 : 0.31623; l1 : 0.050000; l2 : 0.95000; w1 : 15.600; w2 : 12.480;
+a1 : 1; a2 : 0.1; l1 : 0.05; l2 : 0.95; w1 : 1; w2 : 1;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+Phi1(b,x) := exp(-mu1 * x) * sin(q1 * (l1 + x));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+Phi2(b,x) := exp(-mu2 * x) * (sin(q1*l1)*cos(q2*x) + (sin(q1*l1)*(mu2*a2^2-mu1*a1^2)+cos(q1*l1)*q1*a1^2)/(q2*a2^2)*sin(q2*x));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+Rho1(x) := exp(2*mu1*x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+Rho2(x) := exp(2*mu2*x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+mu1 : w1/2/a1^2;
+mu2 : w2/2/a2^2;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+I(b) := ''(integrate(Phi1(b, x) * Rho1(x), x, -l1, 0) + integrate(Phi2(b, x) * Rho2(x), x, 0, l2));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+N(b) := ''(integrate(Phi1(b, x)^2 * Rho1(x), x, -l1, 0) + integrate(Phi2(b, x)^2 * Rho2(x), x, 0, l2));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+N(b) := ''(integrate(Phi1(b1, x) * Rho1(x), x, -l1, 0) + integrate(Phi2(b2, x)^2 * Rho2(x), x, 0, l2));
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

@@ -1,0 +1,66 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 0.8.5 ] */
+
+/* [wxMaxima: input   start ] */
+kill(all);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+a:matrix(
+[cosh(q_1(beta)*l_1), 0, -sinh(q_1(beta)*l_1), 0],
+[0, q_2(beta)*sinh(q_2(beta)*l_2) - mu_2*cosh(q_2(beta)*l_2), 0, q_2(beta)*cosh(q_2(beta)*l_2) - mu_2*sinh(q_2(beta)*l_2)],
+[1, -1, 0, 0],
+[-a_1^2*mu_1, a_2^2*mu_2, q_1(beta)*a_1^2, -q_2(beta)*a_2^2]
+);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+mu1 : w_1/(2*a_1^2);
+mu2 : w_2/(2*a_2^2);
+q_1(beta) := sqrt(-beta^2/a_1^2+mu_1^2);
+q_2(beta) := sqrt(-beta^2/a_2^2+mu_2^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+F(b) := ''((determinant(a)));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+l1:1; l2:19; a1:sqrt(0.001); a2:sqrt(0.0001); w1:0.00078; w2:0.000624;
+a1 : 1; a2 : 0.31623; l1 : 0.050000; l2 : 0.95000; w1 : 15.600; w2 : 12.480;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d(F(b), [b,0,mu1*a1-1.e-9], [gnuplot_preamble, "set zeroaxis"], [gnuplot_term, ps], [gnuplot_out_file, "gg.eps"]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d(F(b), [b,0,1e-6, 1e-9]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+G(b) := ''( (q2(b)*cosh(q2(b)*l2)-mu2*sinh(q2(b)*l2))*(1/2*(w2-w1)*sinh(q1(b)*l1) + q1(b)*a1^2*cosh(q1(b)*l1))+q2(b)*a2^2*(q2(b)*sinh(q2(b)*l2)-mu2*cosh(q2(b)*l2))*sinh(q1(b)*l1) );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d(-G(b), [b,0,mu1*a1-1e-9]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+''(mu1*a1);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+''(F(1)); ''(-G(1));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+G1(b) := q2(b)*(cosh(q2(b)*l2) - sinh(q2(b)*l2))*1/2*w1*(cosh(q1(b)*l1) - sinh(q1(b)*l1));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d(q1(b) * sinh(2*q1(b)*l1), [b,0,w1*a1]);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

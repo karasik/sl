@@ -1,0 +1,44 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 0.8.5 ] */
+
+/* [wxMaxima: input   start ] */
+kill(all);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+a:matrix([cos(q1(b)*l1), 0, -sin(q1(b)*l1), 0],
+[0, p2*cos(q2(b)*l2)-q2(b)*sin(q2(b)*l2),0,p2*sin(q2(b)*l2)+q2(b)*cos(q2(b)*l2)],
+[1,-1,0,0],
+[p1,-p2,q1(b),-q2(b)]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+p1 : -w1/(2*a1^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+p2 : -w2/(2*a2^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+q1(b) := sqrt(-w1^2+4*a1^2*b^2)/(2*a1^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+q2(b) := sqrt(-w2^2+4*a2^2*b^2)/(2*a2^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+F(b) := '' (determinant(a));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+l1:1; l2:19; a1:sqrt(0.001); a2:sqrt(0.0001); w1:0.00078; w2:0.000624;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d(F(b), [b,w2/2/a2,w2/2/a2+0.1]);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

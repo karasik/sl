@@ -1,0 +1,54 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 0.8.5 ] */
+
+/* [wxMaxima: input   start ] */
+kill(all);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+a:matrix(
+[cos(q1(b)*l1), 0, -sin(q1(b)*l1), 0],
+[0, q2(b)*sinh(q2(b)*l2) - mu2*cosh(q2(b)*l2), 0, q2(b)*cosh(q2(b)*l2) - mu2*sinh(q2(b)*l2)],
+[1, -1, 0, 0],
+[-a1^2*mu1, a2^2*mu2, q1(b)*a1^2, -q2(b)*a2^2]
+);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+mu1 : w1/(2*a1^2);
+mu2 : w2/(2*a2^2);
+q1(b) := sqrt(+b^2/a1^2-mu1^2);
+q2(b) := sqrt(-b^2/a2^2+mu2^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+F(b) := ''(determinant(a));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+l1:1; l2:19; a1:sqrt(0.001); a2:sqrt(0.0001); w1:0.00078; w2:0.000624;
+a1 : 1; a2 : 0.31623; l1 : 0.050000; l2 : 0.95000; w1 : 15.600; w2 : 12.480;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d(F(b), [b,mu1*a1+1.e-9,mu2*a2-1.e-9], [gnuplot_preamble, "set zeroaxis"], [gnuplot_term, ps], [gnuplot_out_file, "lg.eps"]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d(F(b), [b,mu1*a1+1.e-9,mu2*a2-1.e-9]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+G(b) := ''( (q2(b)*cosh(q2(b)*l2)-mu2*sinh(q2(b)*l2))*(1/2*(w2-w1)*sin(q1(b)*l1) + q1(b)*a1^2*cos(q1(b)*l1))+q2(b)*a2^2*(q2(b)*sinh(q2(b)*l2)-mu2*cosh(q2(b)*l2))*sin(q1(b)*l1) );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d(-G(b), [b,mu1*a1+1.e-9,mu2*a2-1.e-9]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+''(F(10)); ''(-G(10));
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
