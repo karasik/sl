@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2013.2.19)  31 MAR 2013 13:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2013.2.19)  31 MAR 2013 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -615,54 +615,58 @@ Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 
 Package cmap Warning: pdftex in DVI mode - exiting.
 
-) (./main.aux
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
- (/usr/share/texmf/tex/latex/cyrillic/t2acmr.fd
+) (/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+LaTeX Font Info:    Redeclaring font encoding T2A on input line 38.
+)
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 100.
+
+
+(/usr/share/texmf/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+)) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
-
-Package geometry Warning: The marginal notes overrun the paper.
-     Add 16.54726pt and more to the right margin.
-
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvips
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 483.69687pt, 28.45274pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-52.36449pt
+* \textwidth=455.24408pt
+* \textheight=682.86613pt
+* \oddsidemargin=14.22636pt
+* \evensidemargin=-14.22636pt
+* \topmargin=-28.45274pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=36.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -675,80 +679,102 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-File: fig1.eps Graphic file (type eps)
-<fig1.eps>
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
- (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 38.
+
+(/usr/share/texmf/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 46.
+
+
+(/usr/share/texmf/tex/latex/cyrillic/t2acmss.fd
+File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-Overfull \hbox (23.00374pt too wide) in paragraph at lines 93--95
-\T2A/cmr/m/n/12 Константа $\OML/cmm/m/it/12 k$ \T2A/cmr/m/n/12 не может быть по
-ложительной, в противном случае $[] \OML/cmm/m/it/12 ^^R\OT1/cmr/m/n/12 (\OML/c
-mm/m/it/12 t\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = 0$\T2A/cmr/m/
-n/12 , что противоречит
- []
-
-[1
+) [1
 
 ]
+Overfull \hbox (16.18321pt too wide) in paragraph at lines 66--74
+[]\T2A/cmr/m/n/10.95 Аннотация обычно содержит краткое описание постановки зада
+чи и полученных|
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 66--74
+\T2A/cmr/m/n/10.95 Аннотация собирается в последнюю очередь путем легкой модифи
+кации
+ []
+
+[1] (./main.toc)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [2]
+Overfull \hbox (3.87296pt too wide) in paragraph at lines 82--86
+\T2A/cmr/m/n/12 решения уравнений в частных производных с кусочно-постоянными к
+оэффициентами.|
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 87--91
+\T2A/cmr/m/n/12 преобразований. Указанный метод позволяет получить аналитическо
+е решение
+ []
+
+
+Overfull \hbox (2.30338pt too wide) in paragraph at lines 103--104
+\T2A/cmr/m/n/12 конвекции для одномерной конечной двухслойной|
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 103--104
+\T2A/cmr/m/n/12 области, которая схематически показана на
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 124--126
+\T2A/cmr/m/n/12 где $\OML/cmm/m/it/12 a\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/
+cmr/m/n/12 )$\T2A/cmr/m/n/12 , $\OML/cmm/m/it/12 w\OT1/cmr/m/n/12 (\OML/cmm/m/i
+t/12 x\OT1/cmr/m/n/12 )$ \T2A/cmr/m/n/12 --- кусочно-постоянные коэффициенты ди
+ффузии и скорости
+ []
+
+[3]
 Missing character: There is no и in font cmr12!
-
-Overfull \hbox (18.49469pt too wide) in paragraph at lines 154--155
-[]\T2A/cmr/m/n/12 Пусть для определенности $\OML/cmm/m/it/12 ^^V[] \OMS/cmsy/m/
-n/12 ^^T \OML/cmm/m/it/12 ^^V[]$\T2A/cmr/m/n/12 . Тогда для нахождения собствен
-ных чисел $\OML/cmm/m/it/12 ^^U$ \T2A/cmr/m/n/12 необходимо
+ [4] [5] [6] [7] [8] [9]
+Overfull \hbox (10.40141pt too wide) in paragraph at lines 490--491
+[]\T2A/cmr/m/n/12 В качестве примера выберем следующие значения параметров, кот
+орые моделируют|
  []
 
 
-Overfull \hbox (5.58284pt too wide) in paragraph at lines 175--177
-\T2A/cmr/m/n/12 Константы $\OML/cmm/m/it/12 A[]$\T2A/cmr/m/n/12 , $\OML/cmm/m/i
-t/12 A[]$\T2A/cmr/m/n/12 , $\OML/cmm/m/it/12 B[]$\T2A/cmr/m/n/12 , $\OML/cmm/m/
-it/12 B[]$ \T2A/cmr/m/n/12 определяем из граничных условий. Используя граничные
- условия,
+Underfull \hbox (badness 1087) in paragraph at lines 505--508
+[]\T2A/cmr/m/n/12 Приведенная схема позволяет получать решение задачи методом к
+онечных
  []
 
-[2] [3]
-Overfull \hbox (16.82195pt too wide) in paragraph at lines 253--254
-[]\T2A/cmr/m/n/12 3. $\OML/cmm/m/it/12 ^^V[]a[] < ^^U < \OMS/cmsy/m/n/12 1$\T2A
-/cmr/m/n/12 . Собственные функции, уравнения для собственных значений, постоянн
-ые
+[10]
+Underfull \hbox (badness 2707) in paragraph at lines 515--516
+[]\T2A/cmr/m/n/12 Карташов Э.М. Аналитические методы в теории теплопроводности.
+--М.:
  []
 
-
-Overfull \hbox (27.79259pt too wide) in paragraph at lines 288--290
-[]\T2A/cmr/m/n/12 Собственные функции (18[]), (24[]), (28[]), как решения задач
-и Штурма--Лиувилля ортогональны
- []
-
-[4]
-Overfull \hbox (1.51932pt too wide) in paragraph at lines 329--331
-\T2A/cmr/m/n/12 Из соображений симметрии $\OML/cmm/m/it/12 Q \OT1/cmr/m/n/12 = 
-\OML/cmm/m/it/12 P$\T2A/cmr/m/n/12 , следовательно из (36[]) $\OML/cmm/m/it/12 
-I[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 I[]$\T2A/cmr/m/n/12 . Из (34[]) и предпо
-ложения,
- []
-
-[5]
-Overfull \hbox (15.0712pt too wide) in paragraph at lines 407--410
-\T2A/cmr/m/n/12 существует опасность потери корней. В этом случае система собст
-венных функций перестанет
- []
-
-[6]
-File: full.eps Graphic file (type eps)
- <full.eps> [7] (./main.aux) ) 
+[11] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3478 strings out of 495104
- 40074 string characters out of 3183695
- 115504 words of memory out of 3500000
- 6581 multiletter control sequences out of 15000+200000
- 14761 words of font info for 40 fonts, out of 3000000 for 9000
+ 3610 strings out of 495104
+ 42247 string characters out of 3183695
+ 114800 words of memory out of 3500000
+ 6691 multiletter control sequences out of 15000+200000
+ 20046 words of font info for 47 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 27i,18n,24p,762b,256s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,18n,24p,763b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.dvi (7 pages, 34436 bytes).
+Output written on main.dvi (12 pages, 43488 bytes).

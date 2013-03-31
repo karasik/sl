@@ -1,0 +1,67 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2013.2.19)  31 MAR 2013 13:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**eskd.tex
+(./eskd.tex
+LaTeX2e <2009/09/24>
+(/usr/share/texmf/tex/latex/eskdx/eskdtext.cls
+Document Class: eskdtext 2010/01/14 v0.98 Textual Documentation
+(/usr/share/texmf/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texmf/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/share/texmf/tex/latex/base/exscale.sty
+Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+\big@size=\dimen102
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/share/texmf/tex/latex/eskdx/eskdlang.sty
+Package: eskdlang 2010/01/14 v0.98 Language
+
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+
+! LaTeX Error: File `utf-8.def' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: def)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.131 \endinput
+               ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 295 strings out of 495104
+ 5324 string characters out of 3183695
+ 49087 words of memory out of 3500000
+ 3537 multiletter control sequences out of 15000+200000
+ 3938 words of font info for 15 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 31i,0n,22p,286b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.
