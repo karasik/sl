@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2013.2.19)  31 MAR 2013 15:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2013.2.19)  10 APR 2013 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,15 +679,11 @@ LaTeX Font Info:    ... okay on input line 31.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 38.
-
-(/usr/share/texmf/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+File: msu.eps Graphic file (type eps)
+<msu.eps>
 LaTeX Font Info:    Try loading font information for T2A+cmss on input line 46.
 
-
-(/usr/share/texmf/tex/latex/cyrillic/t2acmss.fd
+ (/usr/share/texmf/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 56.
@@ -701,46 +697,35 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
-]
-Overfull \hbox (16.18321pt too wide) in paragraph at lines 66--74
-[]\T2A/cmr/m/n/10.95 Аннотация обычно содержит краткое описание постановки зада
-чи и полученных|
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 66--74
-\T2A/cmr/m/n/10.95 Аннотация собирается в последнюю очередь путем легкой модифи
-кации
- []
-
-[1] (./main.toc)
+] [1] (./main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
  [2]
-Overfull \hbox (3.87296pt too wide) in paragraph at lines 82--86
+Overfull \hbox (3.87296pt too wide) in paragraph at lines 78--82
 \T2A/cmr/m/n/12 решения уравнений в частных производных с кусочно-постоянными к
-оэффициентами.|
+оэффициентами.
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 87--91
+Underfull \hbox (badness 1158) in paragraph at lines 83--87
 \T2A/cmr/m/n/12 преобразований. Указанный метод позволяет получить аналитическо
 е решение
  []
 
-
-Overfull \hbox (2.30338pt too wide) in paragraph at lines 103--104
-\T2A/cmr/m/n/12 конвекции для одномерной конечной двухслойной|
+File: fig1.eps Graphic file (type eps)
+<fig1.eps>
+Overfull \hbox (2.30338pt too wide) in paragraph at lines 99--100
+\T2A/cmr/m/n/12 конвекции для одномерной конечной двухслойной
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 103--104
+Underfull \hbox (badness 4266) in paragraph at lines 99--100
 \T2A/cmr/m/n/12 области, которая схематически показана на
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 124--126
+Underfull \hbox (badness 2990) in paragraph at lines 120--122
 \T2A/cmr/m/n/12 где $\OML/cmm/m/it/12 a\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/
 cmr/m/n/12 )$\T2A/cmr/m/n/12 , $\OML/cmm/m/it/12 w\OT1/cmr/m/n/12 (\OML/cmm/m/i
 t/12 x\OT1/cmr/m/n/12 )$ \T2A/cmr/m/n/12 --- кусочно-постоянные коэффициенты ди
@@ -750,31 +735,32 @@ t/12 x\OT1/cmr/m/n/12 )$ \T2A/cmr/m/n/12 --- кусочно-постоянные коэффициенты ди
 [3]
 Missing character: There is no и in font cmr12!
  [4] [5] [6] [7] [8] [9]
-Overfull \hbox (10.40141pt too wide) in paragraph at lines 490--491
+Overfull \hbox (10.40141pt too wide) in paragraph at lines 486--487
 []\T2A/cmr/m/n/12 В качестве примера выберем следующие значения параметров, кот
-орые моделируют|
+орые моделируют
  []
 
-
-Underfull \hbox (badness 1087) in paragraph at lines 505--508
+File: full.eps Graphic file (type eps)
+<full.eps>
+Underfull \hbox (badness 1087) in paragraph at lines 501--504
 []\T2A/cmr/m/n/12 Приведенная схема позволяет получать решение задачи методом к
 онечных
  []
 
 [10]
-Underfull \hbox (badness 2707) in paragraph at lines 515--516
+Underfull \hbox (badness 2707) in paragraph at lines 511--512
 []\T2A/cmr/m/n/12 Карташов Э.М. Аналитические методы в теории теплопроводности.
 --М.:
  []
 
 [11] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3610 strings out of 495104
- 42247 string characters out of 3183695
- 114800 words of memory out of 3500000
- 6691 multiletter control sequences out of 15000+200000
- 20046 words of font info for 47 fonts, out of 3000000 for 9000
+ 3590 strings out of 495104
+ 41638 string characters out of 3183695
+ 114788 words of memory out of 3500000
+ 6675 multiletter control sequences out of 15000+200000
+ 19736 words of font info for 46 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  27i,18n,24p,763b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.dvi (12 pages, 43488 bytes).
+Output written on main.dvi (12 pages, 43632 bytes).
