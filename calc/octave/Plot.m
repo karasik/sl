@@ -1,15 +1,16 @@
 p = 1;
 t0 = 0 / co;
-t1 = 1e2 / co;
-step = (t1 - t0) / 1e1;
-for t=t0:step:t1,
+t1 = (4*pi) / co;
+step = (t1 - t0) / 2e2;
+for t=t0:step:(t1-step),
   u = x - x;
   for n=1:length(beta),
-    u(:) = u(:)' + ((- 1 * exp(-b^2 * t) * A) / NormPhi2(n) .* phi(n, :));
+    u(:) = u(:)' + (Theta(n,t) / NormPhi20(n) .* phi(n, :));
   endfor;
-  u += 1;
-  plot(x, u);
+  u += 1 - cos(Omega*t);
+  h = plot(x, u);
+  set(h, 'linewidth', 2);
   title(sprintf('t = %.4f', t * co));
-  axis([-l1 l2 -6e0 6e0]);
-  print(sprintf('img/Mi%05d.png', p++));
+  axis([-l1 l2 -0.1e0 2.1e0]);
+  print(sprintf('img/animation-two-%0d.png', p++));
 endfor;

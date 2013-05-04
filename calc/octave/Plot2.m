@@ -1,6 +1,6 @@
 p = 1;
 t0 = 0 / co;
-t1 = 1e3 / co;
+t1 = 1e0 / co;
 step = (t1 - t0) / 1e1;
 % k1 = exp(-mu1*l1)/2;
 for t=t0:step:t1,
@@ -16,7 +16,7 @@ for t=t0:step:t1,
   endfor;
   % u += 5;
   % u += (1 - cos(Omega*t));
-  plot(x, u, 'g', x, v, 'b', x, u+v, 'r');
+  plot(x, u+v, 'r');
   title(sprintf('t = %.4f', t * co));
   axis([-l1 l2 -2.5e0 2.5e0]);
   print(sprintf('img/2_%05d.png', p++));

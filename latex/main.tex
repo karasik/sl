@@ -10,7 +10,6 @@
 \usepackage{verbatim}
 \usepackage{titletoc}
 \usepackage{cmap}
-\usepackage{movie15}
 \usepackage{hyperref}
 %\geometry{verbose, a4paper, top=2cm, bottom=2cm, left=3cm, right=1cm}
 % Параметры страницы
@@ -90,7 +89,6 @@
 В данной работе рассматриваются особенности нахождения такой системы, ее применение для решения исходной задачи
 и возникающие при этом трудности.
 
-% \includemovie{2cm}{1cm}{mov1.gif}
 \section{Постановка задачи}
 \begin{wrapfigure}{r}{0.4\textwidth}
   \centering
@@ -427,7 +425,7 @@
 \begin{equation}
   \begin{aligned}
     & \int \limits_{-l_1}^{l_2} \rho U_t \varphi_n dx = \overbrace{\int \limits_{-l_1}^{l_2} \rho w U_x \varphi_n dx}^{I_1} + \overbrace{\int \limits_{-l_1}^{l_2} \rho a^2 U_{xx} \varphi_n dx}^{I_2} +  \overbrace{\left( -\omega \sin \omega t \int \limits_{-l_1}^{l_2} \rho \varphi_n dx \right)}^{F(t)}  \Rightarrow \\
-  & \Rightarrow \frac{\partial}{\partial t} \int \limits_{-l_1}^{l_2} \rho U \varphi_n dx = I_1 + I_2 + F(t) \Rightarrow \theta'(t) = I_1 + I_2 + F(t).
+  & \Rightarrow \frac{\partial}{\partial t} \int \limits_{-l_1}^{l_2} \rho U \varphi_n dx = I_1 + I_2 + F(t) \Rightarrow \theta_n'(t) = I_1 + I_2 + F(t).
 \end{aligned}
 \end{equation}
 При вычислении $I_1+I_2+F(t)$, принимаем во внимание, что $\rho'(x) = 2 \mu \rho(x)$.
@@ -458,7 +456,7 @@
 \end{equation}
 Подставляем найденные значения в (\ref{eq:17})
 \begin{equation}
-\theta'(t) + \lambda_n^2 \theta(t) = F(t).
+\theta'(t) + \lambda_n^2 \theta_n(t) = F(t).
 \label{eq:18}
 \end{equation}
 \subsection{Нахождение временной составляющей решения}
