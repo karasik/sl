@@ -4,41 +4,44 @@
 \usepackage[russian]{babel}
 \usepackage{graphicx}
 \usepackage{animate}
-%\usetheme{Madrid}
+\usetheme{Warsaw}
+ 
+\makeatletter
+\defbeamertemplate*{footline}{my theme}{
+    \leavevmode%
+    \hbox{%
+    \begin{beamercolorbox}[wd=.2\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+        \usebeamerfont{author in head/foot}%
+        \insertauthor
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.7\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+        \usebeamerfont{title in head/foot}\inserttitle
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.1\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+        \usebeamerfont{date in head/foot}
+        \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+    \end{beamercolorbox}}%
+}
+\makeatother
+\beamertemplatenavigationsymbolsempty 
+
+\hypersetup{pdfpagemode=FullScreen}
+\newcommand{\const}{\ensuremath{const}}
+\author{Ефим Пышнограев}
+\date{24 мая 2013}
+\institute{Московский государственный университет имени М. В. Ломоносова}
+\title{Решение задачи диффузии-конвекции в жидкости с пульсирующим источником}
 
 \begin{document}
 \begin{frame}
-\begin{center}
-    Московский государственный университет имени М. В. Ломоносова
-    \bigskip
-    Факультет Вычислительной Математики и Кибернетики\\[5mm]
-
-    \textsf{\large\bfseries
-        Решение задачи диффузии-конвекции в жидкости с пульсирующим источником
-    }\\[5mm]
-
-    \begin{flushright}
-        \parbox{0.5\textwidth}{
-            Выполнил:\\
-            студент 4 курса 427 группы\\
-            \emph{Е. Ю. Пышнограев}\\[3mm]
-            Научный руководитель:\\
-            д.ф-м.н., профессор\\
-            \emph{М. М. Хапаев}
-        }
-    \end{flushright}
-
-    \vspace{\fill}
-    Москва, 2013
-\end{center}
+  \titlepage
 \end{frame}
 
 \begin{frame}
   \frametitle{Введение}
   \begin{itemize}
-    \item Процесс диффузии вещества в жидкости
-      \pause
-    \item Детальность описания задачи, переход от простого к сложному
+    \item Диффузия вещества в жидкости
+    \item Какую модель выбрать?
   \end{itemize}
 \end{frame}
 
@@ -55,7 +58,6 @@
         \end{center}
       \end{figure}
   \end{itemize}
-  \pause
   Что можно добавить в модель чтобы сделать ее достовернее?
 \end{frame}
 
@@ -76,7 +78,6 @@
         \end{center}
       \end{figure}
 
-    \pause
     \column{0.5 \textwidth}
     \begin{itemize}
       \item Сделаем область многослойной
@@ -94,8 +95,14 @@
 
 \begin{frame}
   \frametitle{Постановка задачи}
-
+  Остановимся на этих двух уточнениях.
   \begin{columns}
+    \column{0.6 \textwidth}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[width=5cm]{int4.eps}
+    \end{center}
+  \end{figure}
     \column{0.4 \textwidth}
   \begin{equation*}
    u_t = wu_x + a^2 u_{xx},
@@ -113,12 +120,6 @@
     \end{aligned}
     \right.
   \end{equation*}
-    \column{0.6 \textwidth}
-  \begin{figure}[ht]
-    \begin{center}
-      \includegraphics[width=5cm]{int4.eps}
-    \end{center}
-  \end{figure}
   \end{columns}
 \end{frame}
 
@@ -138,7 +139,7 @@
     \begin{itemize}
       \item Может быть использован не всегда, при решении часто бывают трудности
       \item Если все получилось, то получаем явную формулу для результата
-      \item Точное решение может использоваться для проверки адекватности численного метода для задачи
+      \item Точное решение может использоваться для проверки адекватности численного метода
     \end{itemize}
   \end{columns}
 \end{frame}
@@ -191,7 +192,7 @@
     \frac{\theta'}{\theta}=\frac{a^2\varphi''+w\varphi'}{\varphi}=s.
     \label{eq:1}
   \end{equation*}
-  Константа $ s $ не может быть положительной, в противном случае функция $\theta(t)$ будет не ограничена, что противоречит физическому смыслу задачи. Ввиду этого, можно принять
+  Константа $ s $ не может быть положительной, в противном случае функция $\theta(t)$ будет не ограничена. Ввиду этого, можно принять
   \begin{equation*}
     s=-\lambda^2.
     \label{eq:2}
@@ -200,7 +201,7 @@
 
 \begin{frame}
   \frametitle{Составление задачи Штурма--Лиувилля}
-  В результате разделения переменных получаем задачу Штурма--Лиувилля для $\varphi(x)$:
+  Получаем задачу Штурма--Лиувилля для $\varphi(x)$:
   \begin{equation*}
     a^2 \varphi''(x) + w \varphi'(x) + \lambda^2\varphi(x)=0 
   \end{equation*}
@@ -221,12 +222,7 @@
   \frametitle{Составление задачи Штурма--Лиувилля}
   Для того чтобы исключить из уравнения слагаемое $w\varphi'(x)$, производим замену 
   \begin{equation*}
-    \varphi(x) = \psi(x) e^{- \mu x},\ \text{где}\ \mu=\mu(x) = \left\{
-      \begin{aligned}
-        & \mu_1 = \frac{w_1}{2a_1^2}\ \text{при}\ x \in [-l_1;0), \\
-        & \mu_2 = \frac{w_2}{2a_2^2}\ \text{при}\ x \in [0;l_2]. \\
-      \end{aligned}
-      \right.
+    \varphi(x) = \psi(x) e^{- \mu x},\ \text{где}\ \mu=\mu(x) = \frac{w(x)}{2a(x)^2}.
   \end{equation*}
   В итоге получаем новое уравнение
   \begin{equation*}
@@ -250,7 +246,7 @@
 \begin{frame}
   \frametitle{Уравнение для собственных чисел}
   Пусть, для определенности, $\mu_1 a_1 < \mu_2 a_2$.
-  Вариант $\mu_1 a_1 < \mu_2 a_2$ --- частный случай рассмотренного ниже.
+
   Уравнение имеет разный вид на трех промежутках:
   \begin{enumerate}
     \item $ 0 \le \lambda \le \mu_1a_1$
@@ -275,7 +271,6 @@
       \gamma_2 = \gamma_2(\lambda) = \sqrt{- \frac{\lambda^2}{a_2^2} + \mu_2}.
     \end{aligned}
   \end{equation*}
-  \pause
   Два оставшихся промежутка рассматриваются аналогично.
 \end{frame}
 
@@ -303,9 +298,7 @@
       \begin{aligned}
         & \gamma_1 = \gamma_1(\lambda) = \sqrt{- \frac{\lambda^2}{a_1^2} + \mu_1}, \\
         & \gamma_2 = \gamma_2(\lambda) = \sqrt{- \frac{\lambda^2}{a_2^2} + \mu_2}, \\
-        & A_1 = A_2 = \sh \gamma_1l_1, \\
-        & B_1 = \ch \gamma_1l_1, \\
-        & B_2 = \frac{\sh (\gamma_1l_1) (-\mu_1 a_1^2 + \mu_2 a_2^2) + \ch (\gamma_1l_1) \gamma_1 a_1^2}{\gamma_2a_2^2}.
+        & A_i, B_i = \const.
       \end{aligned}
     \end{equation*}
 \end{frame}
@@ -339,7 +332,7 @@
 
 \begin{frame}
   \frametitle{Нахождение веса}
-  Собственные функции $\psi_n$ и $\psi_m$, соответствующие разным собственным значениям ортогональны с весом $\rho_\psi(x)$. Искомый вес находится из уравнения:
+  Собственные функции $\psi_n$ и $\psi_m$ ($n \ne m$) ортогональны с весом $\rho_\psi(x)$. Искомый вес находится из уравнения:
   \begin{equation*}
     \int \limits_{-l_1}^{l_2} \rho_\psi(x) \psi_n(x) \psi_m(x) dx = 0.
   \end{equation*}
@@ -368,12 +361,12 @@
   \begin{equation*}
     \begin{aligned}
       & \int \limits_{-l_1}^{l_2} \rho U_t \varphi_n dx = \overbrace{\int \limits_{-l_1}^{l_2} \rho w U_x \varphi_n dx}^{I_1} + \overbrace{\int \limits_{-l_1}^{l_2} \rho a^2 U_{xx} \varphi_n dx}^{I_2} +  \overbrace{\left( -\omega \sin \omega t \int \limits_{-l_1}^{l_2} \rho \varphi_n dx \right)}^{F(t)}  \Rightarrow \\
-    & \Rightarrow \theta'(t) = I_1 + I_2 + F(t).
+    & \Rightarrow \theta_n'(t) = I_1 + I_2 + F(t).
   \end{aligned}
   \end{equation*}
   После подстановок и преобразований, получим:
   \begin{equation*}
-  \theta'(t) + \lambda^2 \theta(t) = F(t).
+  \theta_n'(t) + \lambda_n^2 \theta_n(t) = F(t).
   \end{equation*}
 
 \end{frame}
@@ -398,9 +391,9 @@
 \begin{frame}
   \frametitle{Выражение для результата}
     Производим обратную замену: $u(x,t) = U(x,t) + (1 - \cos \omega t)$. Тогда окончательное решение задачи имеет вид:
-    \begin{equation}
+    \begin{equation*}
       u(x,t)= 1 - \cos \omega t + \sum \limits_{n=1}^{\infty} \frac{\varphi_n(x) \theta_n(t)}{||\varphi_n||}.
-    \end{equation}
+    \end{equation*}
 \end{frame}
 
 \begin{frame}
@@ -424,24 +417,24 @@
 
 \begin{frame}
  \frametitle{Анимация процесса}
- Выберем значения переметров следующим образом:
+ Выберем значения параметров следующим образом:
   \begin{equation*}
     l_1=3,\ l_2=5,\ a_1=2,\ a_2=4,\ w_1=0.1,\ w_2=w_1 \cdot 0.8.
   \end{equation*}
  \begin{center}
-   \animategraphics[controls, loop,height=5cm]{100}{a1/animation-one-}{1}{200} 
+   \animategraphics[autoplay,loop,height=5cm]{100}{a1/animation-one-}{1}{200} 
  \end{center}
 \end{frame}
 
 
 \begin{frame}
  \frametitle{Анимация процесса}
- Выберем значения переметров следующим образом:
+ Выберем значения параметров следующим образом:
   \begin{equation*}
     l_1=3,\ l_2=1,\ a_1=4,\ a_2=1,\ w_1=0.05,\ w_2=w_1 \cdot 0.8.
   \end{equation*}
  \begin{center}
-   \animategraphics[controls, loop,height=5cm]{100}{a2/animation-two-}{1}{200} 
+   \animategraphics[autoplay,loop,height=5cm]{100}{a2/animation-two-}{1}{200} 
  \end{center}
 \end{frame}
 
@@ -449,8 +442,26 @@
  \frametitle{Анимация процесса}
  Сравним процесс с конвекцией (слева) и без конвекции (справа):
  \begin{center}
-   \animategraphics[controls, loop,height=4cm]{100}{a3/animation-four-}{1}{200} 
+   \animategraphics[autoplay,loop,height=4cm]{100}{a3/animation-four-}{1}{200} 
  \end{center}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Заключение}
+  \begin{itemize}
+    \item Получено аналитическое решение задачи конвективной диффузии. Решение разбито на этапы и структурировано
+    \item Рассмотрены трудности, которые могут возникнуть в процессе нахождения собственных значений
+    \item Показан вид искомой функции на конкретных примерах
+    \item Указанная схема может применяться в более сложных телах больших размерностей
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Fin}
+  \begin{center}
+    Спасибо за внимание.
+
+    Вопросы?
+  \end{center}
+\end{frame}
 \end{document}
