@@ -4,6 +4,7 @@
 \usepackage[russian]{babel}
 \usepackage{graphicx}
 \usepackage{animate}
+\usepackage{comment}
 \usetheme{Warsaw}
  
 \makeatletter
@@ -151,15 +152,16 @@
     \item Переход к однородным граничным условиям
     \item Разделение переменных
     \item Составление задачи Штурма--Лиувилля
-    \item Вывод уравнения для собственных чисел
-    \item Нахождение общего вида собственных функций
+    \item {\bf Вывод уравнения для собственных чисел}
+    \item {\bf Нахождение общего вида собственных функций}
     \item Вычисление веса, с которым ортогональны собственные функции
     \item Проведение интегрального преобразования
-    \item Нахождение временной составляющей решения
-    \item Получение окончательного ответа
+    \item {\bf Нахождение временной составляющей решения}
+    \item {\bf Получение окончательного ответа}
   \end{itemize}
 \end{frame}
 
+\begin{comment}
 \begin{frame}
   \frametitle{Переход к однородным граничным условиям} 
   Производим замену
@@ -242,10 +244,11 @@
     \label{}
   \end{equation*}
 \end{frame}
+\end{comment}
 
 \begin{frame}
   \frametitle{Уравнение для собственных чисел}
-  Пусть, для определенности, $\mu_1 a_1 < \mu_2 a_2$.
+%  Пусть, для определенности, $\mu_1 a_1 < \mu_2 a_2$.
 
   Уравнение имеет разный вид на трех промежутках:
   \begin{enumerate}
@@ -276,7 +279,7 @@
 
 \begin{frame}
   \frametitle{Общий вид собственных функций}
-  Аналогично собственным числам, в каждом их трех промежутков для $\lambda$, собственные функции будут иметь разный вид.
+  Так же, как и собственные числа, в каждом их трех промежутков для $\lambda$, собственные функции будут иметь разный вид:
   \begin{enumerate}
     \item $ 0 \le \lambda \le \mu_1a_1$
     \item $ \mu_1a_1 < \lambda \le \mu_2a_2 $
@@ -289,8 +292,8 @@
     В первом промежутке $ 0 \le \lambda \le \mu_1a_1$ собственные функции равны
     \begin{equation*}
       \begin{aligned}
-        \psi_1(x) = A_1 \ch \gamma_1x + B_1 \sh \gamma_1x, \\
-        \psi_2(x) = A_2 \ch \gamma_2x + B_2 \sh \gamma_2x.
+        \varphi_1(x) = e^{\mu x} \left( A_1 \ch \gamma_1x + B_1 \sh \gamma_1x \right),\\
+        \varphi_2(x) = e^{\mu x} \left( A_2 \ch \gamma_2x + B_2 \sh \gamma_2x \right).
       \end{aligned}
     \end{equation*}
     Где
@@ -305,13 +308,13 @@
 
 \begin{frame}
   \frametitle{Общий вид собственных функций}
-  Во втором и третем промежутке соответственно собственные функции имеют следующий вид:
+  Во втором и третьем промежутке соответственно собственные функции имеют следующий вид:
   \begin{columns}
     \column{0.5 \textwidth}
       \begin{equation*}
         \begin{aligned}
-          & \psi_1(x) = A_1' \cos \gamma_1x + B_1' \sin \gamma_1x, \\
-          & \psi_2(x) = A_2' \ch \gamma_2x + B_2' \sh \gamma_2x, \\
+          & \varphi_1(x) = e^{\mu x} \left( A_1' \cos \gamma_1x + B_1' \sin \gamma_1x \right), \\
+          & \varphi_2(x) = e^{\mu x} \left( A_2' \ch \gamma_2x + B_2' \sh \gamma_2x \right), \\
           & \gamma_1 = \gamma_1(\lambda) = \sqrt{\frac{\lambda^2}{a_1^2} - \mu_1}, \\
           & \gamma_2 = \gamma_2(\lambda) = \sqrt{- \frac{\lambda^2}{a_2^2} + \mu_2}.
         \end{aligned}
@@ -321,8 +324,8 @@
     \column{0.5 \textwidth}
       \begin{equation*}
         \begin{aligned}
-          & \psi_1(x) = A_1'' \cos \gamma_1x + B_1'' \sin \gamma_1x, \\
-          & \psi_2(x) = A_2'' \cos \gamma_2x + B_2'' \sin \gamma_2x, \\
+          & \varphi_1(x) = e^{\mu x} \left( A_1'' \cos \gamma_1x + B_1'' \sin \gamma_1x \right), \\
+          & \varphi_2(x) = e^{\mu x} \left( A_2'' \cos \gamma_2x + B_2'' \sin \gamma_2x \right), \\
           & \gamma_1 = \gamma_1(\lambda) = \sqrt{\frac{\lambda^2}{a_1^2} - \mu_1}, \\
           & \gamma_2 = \gamma_2(\lambda) = \sqrt{\frac{\lambda^2}{a_2^2} - \mu_2}.
         \end{aligned}
@@ -330,6 +333,7 @@
   \end{columns}
 \end{frame}
 
+\begin{comment}
 \begin{frame}
   \frametitle{Нахождение веса}
   Собственные функции $\psi_n$ и $\psi_m$ ($n \ne m$) ортогональны с весом $\rho_\psi(x)$. Искомый вес находится из уравнения:
@@ -370,10 +374,11 @@
   \end{equation*}
 
 \end{frame}
+\end{comment}
 
 \begin{frame}
   \frametitle{Нахождение временной составляющей решения}
-  Получено уравнение для $\theta_n(t)$:
+  Уравнение для $\theta_n(t)$:
   \begin{equation*}
     \left\{  
     \begin{aligned}
@@ -390,10 +395,12 @@
 
 \begin{frame}
   \frametitle{Выражение для результата}
-    Производим обратную замену: $u(x,t) = U(x,t) + (1 - \cos \omega t)$. Тогда окончательное решение задачи имеет вид:
+    %Производим обратную замену: $u(x,t) = U(x,t) + (1 - \cos \omega t)$. Тогда окончательное решение задачи имеет вид:
+    Окончательное решение задачи имеет вид:
     \begin{equation*}
       u(x,t)= 1 - \cos \omega t + \sum \limits_{n=1}^{\infty} \frac{\varphi_n(x) \theta_n(t)}{||\varphi_n||}.
     \end{equation*}
+
 \end{frame}
 
 \begin{frame}
@@ -461,7 +468,7 @@
   \begin{center}
     Спасибо за внимание.
 
-    Вопросы?
+    Готов ответить на ваши вопросы.
   \end{center}
 \end{frame}
 \end{document}
