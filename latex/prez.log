@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux) (format=pdflatex 2013.5.11)  22 MAY 2013 18:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux) (format=pdflatex 2013.5.11)  24 MAY 2013 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1472,36 +1472,34 @@ Overfull \hbox (1.33339pt too wide) detected at line 125
 
 ] [7
 
-] [8
-
 ]
-Overfull \hbox (16.05821pt too wide) detected at line 278
+Overfull \hbox (16.05821pt too wide) detected at line 280
 [] []
  []
 
-[9
+[8
+
+] [9
 
 ] [10
 
-] [11
-
 ]
-Overfull \hbox (9.03688pt too wide) detected at line 334
+Overfull \hbox (9.03688pt too wide) detected at line 336
 [] []
  []
 
 
-Overfull \hbox (11.65077pt too wide) detected at line 334
+Overfull \hbox (11.65077pt too wide) detected at line 336
 [] []
  []
 
-[12
+[11
+
+] [12
 
 ] [13
 
 ] [14
-
-] [15
 
 ]
 Package epstopdf Info: Source file: <full.eps>
@@ -1512,249 +1510,102 @@ Package epstopdf Info: Source file: <full.eps>
 (epstopdf)                    size: 18078 bytes
 (epstopdf)             Command: <repstopdf --outfile=full-eps-converted-to.pdf 
 full.eps>
-(epstopdf)             \includegraphics on input line 423.
+(epstopdf)             \includegraphics on input line 425.
 Package epstopdf Info: Output file is already uptodate.
 
-<full-eps-converted-to.pdf, id=156, 1454.43375pt x 510.90875pt>
+<full-eps-converted-to.pdf, id=151, 1454.43375pt x 510.90875pt>
 File: full-eps-converted-to.pdf Graphic file (type pdf)
 
 <use full-eps-converted-to.pdf>
-Package pdftex.def Info: full-eps-converted-to.pdf used on input line 423.
+Package pdftex.def Info: full-eps-converted-to.pdf used on input line 425.
 (pdftex.def)             Requested size: 312.9803pt x 109.93678pt.
 
-Overfull \hbox (5.69043pt too wide) in paragraph at lines 423--423
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 425--425
  [] 
  []
 
-[16
+[15
 
- <./full-eps-converted-to.pdf>] <./a1/animation-one-1.png> <./a1/animation-one-
-2.png> <./a1/animation-one-3.png> <./a1/animation-one-4.png> <./a1/animation-on
-e-5.png> <./a1/animation-one-6.png> <./a1/animation-one-7.png> <./a1/animation-
-one-8.png> <./a1/animation-one-9.png> <./a1/animation-one-10.png> <./a1/animati
-on-one-11.png> <./a1/animation-one-12.png> <./a1/animation-one-13.png> <./a1/an
-imation-one-14.png> <./a1/animation-one-15.png> <./a1/animation-one-16.png> <./
-a1/animation-one-17.png> <./a1/animation-one-18.png> <./a1/animation-one-19.png
-> <./a1/animation-one-20.png> <./a1/animation-one-21.png> <./a1/animation-one-2
-2.png> <./a1/animation-one-23.png> <./a1/animation-one-24.png> <./a1/animation-
-one-25.png> <./a1/animation-one-26.png> <./a1/animation-one-27.png> <./a1/anima
-tion-one-28.png> <./a1/animation-one-29.png> <./a1/animation-one-30.png> <./a1/
-animation-one-31.png> <./a1/animation-one-32.png> <./a1/animation-one-33.png> <
-./a1/animation-one-34.png> <./a1/animation-one-35.png> <./a1/animation-one-36.p
-ng> <./a1/animation-one-37.png> <./a1/animation-one-38.png> <./a1/animation-one
--39.png> <./a1/animation-one-40.png> <./a1/animation-one-41.png> <./a1/animatio
-n-one-42.png> <./a1/animation-one-43.png> <./a1/animation-one-44.png> <./a1/ani
-mation-one-45.png> <./a1/animation-one-46.png> <./a1/animation-one-47.png> <./a
-1/animation-one-48.png> <./a1/animation-one-49.png> <./a1/animation-one-50.png>
- <./a1/animation-one-51.png> <./a1/animation-one-52.png> <./a1/animation-one-53
-.png> <./a1/animation-one-54.png> <./a1/animation-one-55.png> <./a1/animation-o
-ne-56.png> <./a1/animation-one-57.png> <./a1/animation-one-58.png> <./a1/animat
-ion-one-59.png> <./a1/animation-one-60.png> <./a1/animation-one-61.png> <./a1/a
-nimation-one-62.png> <./a1/animation-one-63.png> <./a1/animation-one-64.png> <.
-/a1/animation-one-65.png> <./a1/animation-one-66.png> <./a1/animation-one-67.pn
-g> <./a1/animation-one-68.png> <./a1/animation-one-69.png> <./a1/animation-one-
-70.png> <./a1/animation-one-71.png> <./a1/animation-one-72.png> <./a1/animation
--one-73.png> <./a1/animation-one-74.png> <./a1/animation-one-75.png> <./a1/anim
-ation-one-76.png> <./a1/animation-one-77.png> <./a1/animation-one-78.png> <./a1
-/animation-one-79.png> <./a1/animation-one-80.png> <./a1/animation-one-81.png> 
-<./a1/animation-one-82.png> <./a1/animation-one-83.png> <./a1/animation-one-84.
-png> <./a1/animation-one-85.png> <./a1/animation-one-86.png> <./a1/animation-on
-e-87.png> <./a1/animation-one-88.png> <./a1/animation-one-89.png> <./a1/animati
-on-one-90.png> <./a1/animation-one-91.png> <./a1/animation-one-92.png> <./a1/an
-imation-one-93.png> <./a1/animation-one-94.png> <./a1/animation-one-95.png> <./
-a1/animation-one-96.png> <./a1/animation-one-97.png> <./a1/animation-one-98.png
-> <./a1/animation-one-99.png> <./a1/animation-one-100.png> <./a1/animation-one-
-101.png> <./a1/animation-one-102.png> <./a1/animation-one-103.png> <./a1/animat
-ion-one-104.png> <./a1/animation-one-105.png> <./a1/animation-one-106.png> <./a
-1/animation-one-107.png> <./a1/animation-one-108.png> <./a1/animation-one-109.p
-ng> <./a1/animation-one-110.png> <./a1/animation-one-111.png> <./a1/animation-o
-ne-112.png> <./a1/animation-one-113.png> <./a1/animation-one-114.png> <./a1/ani
-mation-one-115.png> <./a1/animation-one-116.png> <./a1/animation-one-117.png> <
-./a1/animation-one-118.png> <./a1/animation-one-119.png> <./a1/animation-one-12
-0.png> <./a1/animation-one-121.png> <./a1/animation-one-122.png> <./a1/animatio
-n-one-123.png> <./a1/animation-one-124.png> <./a1/animation-one-125.png> <./a1/
-animation-one-126.png> <./a1/animation-one-127.png> <./a1/animation-one-128.png
-> <./a1/animation-one-129.png> <./a1/animation-one-130.png> <./a1/animation-one
--131.png> <./a1/animation-one-132.png> <./a1/animation-one-133.png> <./a1/anima
-tion-one-134.png> <./a1/animation-one-135.png> <./a1/animation-one-136.png> <./
-a1/animation-one-137.png> <./a1/animation-one-138.png> <./a1/animation-one-139.
-png> <./a1/animation-one-140.png> <./a1/animation-one-141.png> <./a1/animation-
-one-142.png> <./a1/animation-one-143.png> <./a1/animation-one-144.png> <./a1/an
-imation-one-145.png> <./a1/animation-one-146.png> <./a1/animation-one-147.png> 
-<./a1/animation-one-148.png> <./a1/animation-one-149.png> <./a1/animation-one-1
-50.png> <./a1/animation-one-151.png> <./a1/animation-one-152.png> <./a1/animati
-on-one-153.png> <./a1/animation-one-154.png> <./a1/animation-one-155.png> <./a1
-/animation-one-156.png> <./a1/animation-one-157.png> <./a1/animation-one-158.pn
-g> <./a1/animation-one-159.png> <./a1/animation-one-160.png> <./a1/animation-on
-e-161.png> <./a1/animation-one-162.png> <./a1/animation-one-163.png> <./a1/anim
-ation-one-164.png> <./a1/animation-one-165.png> <./a1/animation-one-166.png> <.
-/a1/animation-one-167.png> <./a1/animation-one-168.png> <./a1/animation-one-169
-.png> <./a1/animation-one-170.png> <./a1/animation-one-171.png> <./a1/animation
--one-172.png> <./a1/animation-one-173.png> <./a1/animation-one-174.png> <./a1/a
-nimation-one-175.png> <./a1/animation-one-176.png> <./a1/animation-one-177.png>
- <./a1/animation-one-178.png> <./a1/animation-one-179.png> <./a1/animation-one-
-180.png> <./a1/animation-one-181.png> <./a1/animation-one-182.png> <./a1/animat
-ion-one-183.png> <./a1/animation-one-184.png> <./a1/animation-one-185.png> <./a
-1/animation-one-186.png> <./a1/animation-one-187.png> <./a1/animation-one-188.p
-ng> <./a1/animation-one-189.png> <./a1/animation-one-190.png> <./a1/animation-o
-ne-191.png> <./a1/animation-one-192.png> <./a1/animation-one-193.png> <./a1/ani
-mation-one-194.png> <./a1/animation-one-195.png> <./a1/animation-one-196.png> <
-./a1/animation-one-197.png> <./a1/animation-one-198.png> <./a1/animation-one-19
-9.png> <./a1/animation-one-200.png> [17
+ <./full-eps-converted-to.pdf>] <./a3/animation-four-1.png> <./a3/animation-fou
+r-2.png> <./a3/animation-four-3.png> <./a3/animation-four-4.png> <./a3/animatio
+n-four-5.png> <./a3/animation-four-6.png> <./a3/animation-four-7.png> <./a3/ani
+mation-four-8.png> <./a3/animation-four-9.png> <./a3/animation-four-10.png> <./
+a3/animation-four-11.png> <./a3/animation-four-12.png> <./a3/animation-four-13.
+png> <./a3/animation-four-14.png> <./a3/animation-four-15.png> <./a3/animation-
+four-16.png> <./a3/animation-four-17.png> <./a3/animation-four-18.png> <./a3/an
+imation-four-19.png> <./a3/animation-four-20.png> <./a3/animation-four-21.png> 
+<./a3/animation-four-22.png> <./a3/animation-four-23.png> <./a3/animation-four-
+24.png> <./a3/animation-four-25.png> <./a3/animation-four-26.png> <./a3/animati
+on-four-27.png> <./a3/animation-four-28.png> <./a3/animation-four-29.png> <./a3
+/animation-four-30.png> <./a3/animation-four-31.png> <./a3/animation-four-32.pn
+g> <./a3/animation-four-33.png> <./a3/animation-four-34.png> <./a3/animation-fo
+ur-35.png> <./a3/animation-four-36.png> <./a3/animation-four-37.png> <./a3/anim
+ation-four-38.png> <./a3/animation-four-39.png> <./a3/animation-four-40.png> <.
+/a3/animation-four-41.png> <./a3/animation-four-42.png> <./a3/animation-four-43
+.png> <./a3/animation-four-44.png> <./a3/animation-four-45.png> <./a3/animation
+-four-46.png> <./a3/animation-four-47.png> <./a3/animation-four-48.png> <./a3/a
+nimation-four-49.png> <./a3/animation-four-50.png> <./a3/animation-four-51.png>
+ <./a3/animation-four-52.png> <./a3/animation-four-53.png> <./a3/animation-four
+-54.png> <./a3/animation-four-55.png> <./a3/animation-four-56.png> <./a3/animat
+ion-four-57.png> <./a3/animation-four-58.png> <./a3/animation-four-59.png> <./a
+3/animation-four-60.png> <./a3/animation-four-61.png> <./a3/animation-four-62.p
+ng> <./a3/animation-four-63.png> <./a3/animation-four-64.png> <./a3/animation-f
+our-65.png> <./a3/animation-four-66.png> <./a3/animation-four-67.png> <./a3/ani
+mation-four-68.png> <./a3/animation-four-69.png> <./a3/animation-four-70.png> <
+./a3/animation-four-71.png> <./a3/animation-four-72.png> <./a3/animation-four-7
+3.png> <./a3/animation-four-74.png> <./a3/animation-four-75.png> <./a3/animatio
+n-four-76.png> <./a3/animation-four-77.png> <./a3/animation-four-78.png> <./a3/
+animation-four-79.png> <./a3/animation-four-80.png> <./a3/animation-four-81.png
+> <./a3/animation-four-82.png> <./a3/animation-four-83.png> <./a3/animation-fou
+r-84.png> <./a3/animation-four-85.png> <./a3/animation-four-86.png> <./a3/anima
+tion-four-87.png> <./a3/animation-four-88.png> <./a3/animation-four-89.png> <./
+a3/animation-four-90.png> <./a3/animation-four-91.png> <./a3/animation-four-92.
+png> <./a3/animation-four-93.png> <./a3/animation-four-94.png> <./a3/animation-
+four-95.png> <./a3/animation-four-96.png> <./a3/animation-four-97.png> <./a3/an
+imation-four-98.png> <./a3/animation-four-99.png> <./a3/animation-four-100.png>
+ <./a3/animation-four-101.png> <./a3/animation-four-102.png> <./a3/animation-fo
+ur-103.png> <./a3/animation-four-104.png> <./a3/animation-four-105.png> <./a3/a
+nimation-four-106.png> <./a3/animation-four-107.png> <./a3/animation-four-108.p
+ng> <./a3/animation-four-109.png> <./a3/animation-four-110.png> <./a3/animation
+-four-111.png> <./a3/animation-four-112.png> <./a3/animation-four-113.png> <./a
+3/animation-four-114.png> <./a3/animation-four-115.png> <./a3/animation-four-11
+6.png> <./a3/animation-four-117.png> <./a3/animation-four-118.png> <./a3/animat
+ion-four-119.png> <./a3/animation-four-120.png> <./a3/animation-four-121.png> <
+./a3/animation-four-122.png> <./a3/animation-four-123.png> <./a3/animation-four
+-124.png> <./a3/animation-four-125.png> <./a3/animation-four-126.png> <./a3/ani
+mation-four-127.png> <./a3/animation-four-128.png> <./a3/animation-four-129.png
+> <./a3/animation-four-130.png> <./a3/animation-four-131.png> <./a3/animation-f
+our-132.png> <./a3/animation-four-133.png> <./a3/animation-four-134.png> <./a3/
+animation-four-135.png> <./a3/animation-four-136.png> <./a3/animation-four-137.
+png> <./a3/animation-four-138.png> <./a3/animation-four-139.png> <./a3/animatio
+n-four-140.png> <./a3/animation-four-141.png> <./a3/animation-four-142.png> <./
+a3/animation-four-143.png> <./a3/animation-four-144.png> <./a3/animation-four-1
+45.png> <./a3/animation-four-146.png> <./a3/animation-four-147.png> <./a3/anima
+tion-four-148.png> <./a3/animation-four-149.png> <./a3/animation-four-150.png> 
+<./a3/animation-four-151.png> <./a3/animation-four-152.png> <./a3/animation-fou
+r-153.png> <./a3/animation-four-154.png> <./a3/animation-four-155.png> <./a3/an
+imation-four-156.png> <./a3/animation-four-157.png> <./a3/animation-four-158.pn
+g> <./a3/animation-four-159.png> <./a3/animation-four-160.png> <./a3/animation-
+four-161.png> <./a3/animation-four-162.png> <./a3/animation-four-163.png> <./a3
+/animation-four-164.png> <./a3/animation-four-165.png> <./a3/animation-four-166
+.png> <./a3/animation-four-167.png> <./a3/animation-four-168.png> <./a3/animati
+on-four-169.png> <./a3/animation-four-170.png> <./a3/animation-four-171.png> <.
+/a3/animation-four-172.png> <./a3/animation-four-173.png> <./a3/animation-four-
+174.png> <./a3/animation-four-175.png> <./a3/animation-four-176.png> <./a3/anim
+ation-four-177.png> <./a3/animation-four-178.png> <./a3/animation-four-179.png>
+ <./a3/animation-four-180.png> <./a3/animation-four-181.png> <./a3/animation-fo
+ur-182.png> <./a3/animation-four-183.png> <./a3/animation-four-184.png> <./a3/a
+nimation-four-185.png> <./a3/animation-four-186.png> <./a3/animation-four-187.p
+ng> <./a3/animation-four-188.png> <./a3/animation-four-189.png> <./a3/animation
+-four-190.png> <./a3/animation-four-191.png> <./a3/animation-four-192.png> <./a
+3/animation-four-193.png> <./a3/animation-four-194.png> <./a3/animation-four-19
+5.png> <./a3/animation-four-196.png> <./a3/animation-four-197.png> <./a3/animat
+ion-four-198.png> <./a3/animation-four-199.png> <./a3/animation-four-200.png> [
+16
 
-] <./a2/animation-two-1.png> <./a2/animation-two-2.png> <./a2/animation-two-3.p
-ng> <./a2/animation-two-4.png> <./a2/animation-two-5.png> <./a2/animation-two-6
-.png> <./a2/animation-two-7.png> <./a2/animation-two-8.png> <./a2/animation-two
--9.png> <./a2/animation-two-10.png> <./a2/animation-two-11.png> <./a2/animation
--two-12.png> <./a2/animation-two-13.png> <./a2/animation-two-14.png> <./a2/anim
-ation-two-15.png> <./a2/animation-two-16.png> <./a2/animation-two-17.png> <./a2
-/animation-two-18.png> <./a2/animation-two-19.png> <./a2/animation-two-20.png> 
-<./a2/animation-two-21.png> <./a2/animation-two-22.png> <./a2/animation-two-23.
-png> <./a2/animation-two-24.png> <./a2/animation-two-25.png> <./a2/animation-tw
-o-26.png> <./a2/animation-two-27.png> <./a2/animation-two-28.png> <./a2/animati
-on-two-29.png> <./a2/animation-two-30.png> <./a2/animation-two-31.png> <./a2/an
-imation-two-32.png> <./a2/animation-two-33.png> <./a2/animation-two-34.png> <./
-a2/animation-two-35.png> <./a2/animation-two-36.png> <./a2/animation-two-37.png
-> <./a2/animation-two-38.png> <./a2/animation-two-39.png> <./a2/animation-two-4
-0.png> <./a2/animation-two-41.png> <./a2/animation-two-42.png> <./a2/animation-
-two-43.png> <./a2/animation-two-44.png> <./a2/animation-two-45.png> <./a2/anima
-tion-two-46.png> <./a2/animation-two-47.png> <./a2/animation-two-48.png> <./a2/
-animation-two-49.png> <./a2/animation-two-50.png> <./a2/animation-two-51.png> <
-./a2/animation-two-52.png> <./a2/animation-two-53.png> <./a2/animation-two-54.p
-ng> <./a2/animation-two-55.png> <./a2/animation-two-56.png> <./a2/animation-two
--57.png> <./a2/animation-two-58.png> <./a2/animation-two-59.png> <./a2/animatio
-n-two-60.png> <./a2/animation-two-61.png> <./a2/animation-two-62.png> <./a2/ani
-mation-two-63.png> <./a2/animation-two-64.png> <./a2/animation-two-65.png> <./a
-2/animation-two-66.png> <./a2/animation-two-67.png> <./a2/animation-two-68.png>
- <./a2/animation-two-69.png> <./a2/animation-two-70.png> <./a2/animation-two-71
-.png> <./a2/animation-two-72.png> <./a2/animation-two-73.png> <./a2/animation-t
-wo-74.png> <./a2/animation-two-75.png> <./a2/animation-two-76.png> <./a2/animat
-ion-two-77.png> <./a2/animation-two-78.png> <./a2/animation-two-79.png> <./a2/a
-nimation-two-80.png> <./a2/animation-two-81.png> <./a2/animation-two-82.png> <.
-/a2/animation-two-83.png> <./a2/animation-two-84.png> <./a2/animation-two-85.pn
-g> <./a2/animation-two-86.png> <./a2/animation-two-87.png> <./a2/animation-two-
-88.png> <./a2/animation-two-89.png> <./a2/animation-two-90.png> <./a2/animation
--two-91.png> <./a2/animation-two-92.png> <./a2/animation-two-93.png> <./a2/anim
-ation-two-94.png> <./a2/animation-two-95.png> <./a2/animation-two-96.png> <./a2
-/animation-two-97.png> <./a2/animation-two-98.png> <./a2/animation-two-99.png> 
-<./a2/animation-two-100.png> <./a2/animation-two-101.png> <./a2/animation-two-1
-02.png> <./a2/animation-two-103.png> <./a2/animation-two-104.png> <./a2/animati
-on-two-105.png> <./a2/animation-two-106.png> <./a2/animation-two-107.png> <./a2
-/animation-two-108.png> <./a2/animation-two-109.png> <./a2/animation-two-110.pn
-g> <./a2/animation-two-111.png> <./a2/animation-two-112.png> <./a2/animation-tw
-o-113.png> <./a2/animation-two-114.png> <./a2/animation-two-115.png> <./a2/anim
-ation-two-116.png> <./a2/animation-two-117.png> <./a2/animation-two-118.png> <.
-/a2/animation-two-119.png> <./a2/animation-two-120.png> <./a2/animation-two-121
-.png> <./a2/animation-two-122.png> <./a2/animation-two-123.png> <./a2/animation
--two-124.png> <./a2/animation-two-125.png> <./a2/animation-two-126.png> <./a2/a
-nimation-two-127.png> <./a2/animation-two-128.png> <./a2/animation-two-129.png>
- <./a2/animation-two-130.png> <./a2/animation-two-131.png> <./a2/animation-two-
-132.png> <./a2/animation-two-133.png> <./a2/animation-two-134.png> <./a2/animat
-ion-two-135.png> <./a2/animation-two-136.png> <./a2/animation-two-137.png> <./a
-2/animation-two-138.png> <./a2/animation-two-139.png> <./a2/animation-two-140.p
-ng> <./a2/animation-two-141.png> <./a2/animation-two-142.png> <./a2/animation-t
-wo-143.png> <./a2/animation-two-144.png> <./a2/animation-two-145.png> <./a2/ani
-mation-two-146.png> <./a2/animation-two-147.png> <./a2/animation-two-148.png> <
-./a2/animation-two-149.png> <./a2/animation-two-150.png> <./a2/animation-two-15
-1.png> <./a2/animation-two-152.png> <./a2/animation-two-153.png> <./a2/animatio
-n-two-154.png> <./a2/animation-two-155.png> <./a2/animation-two-156.png> <./a2/
-animation-two-157.png> <./a2/animation-two-158.png> <./a2/animation-two-159.png
-> <./a2/animation-two-160.png> <./a2/animation-two-161.png> <./a2/animation-two
--162.png> <./a2/animation-two-163.png> <./a2/animation-two-164.png> <./a2/anima
-tion-two-165.png> <./a2/animation-two-166.png> <./a2/animation-two-167.png> <./
-a2/animation-two-168.png> <./a2/animation-two-169.png> <./a2/animation-two-170.
-png> <./a2/animation-two-171.png> <./a2/animation-two-172.png> <./a2/animation-
-two-173.png> <./a2/animation-two-174.png> <./a2/animation-two-175.png> <./a2/an
-imation-two-176.png> <./a2/animation-two-177.png> <./a2/animation-two-178.png> 
-<./a2/animation-two-179.png> <./a2/animation-two-180.png> <./a2/animation-two-1
-81.png> <./a2/animation-two-182.png> <./a2/animation-two-183.png> <./a2/animati
-on-two-184.png> <./a2/animation-two-185.png> <./a2/animation-two-186.png> <./a2
-/animation-two-187.png> <./a2/animation-two-188.png> <./a2/animation-two-189.pn
-g> <./a2/animation-two-190.png> <./a2/animation-two-191.png> <./a2/animation-tw
-o-192.png> <./a2/animation-two-193.png> <./a2/animation-two-194.png> <./a2/anim
-ation-two-195.png> <./a2/animation-two-196.png> <./a2/animation-two-197.png> <.
-/a2/animation-two-198.png> <./a2/animation-two-199.png> <./a2/animation-two-200
-.png> [18
+] [17
 
-] <./a3/animation-four-1.png> <./a3/animation-four-2.png> <./a3/animation-four-
-3.png> <./a3/animation-four-4.png> <./a3/animation-four-5.png> <./a3/animation-
-four-6.png> <./a3/animation-four-7.png> <./a3/animation-four-8.png> <./a3/anima
-tion-four-9.png> <./a3/animation-four-10.png> <./a3/animation-four-11.png> <./a
-3/animation-four-12.png> <./a3/animation-four-13.png> <./a3/animation-four-14.p
-ng> <./a3/animation-four-15.png> <./a3/animation-four-16.png> <./a3/animation-f
-our-17.png> <./a3/animation-four-18.png> <./a3/animation-four-19.png> <./a3/ani
-mation-four-20.png> <./a3/animation-four-21.png> <./a3/animation-four-22.png> <
-./a3/animation-four-23.png> <./a3/animation-four-24.png> <./a3/animation-four-2
-5.png> <./a3/animation-four-26.png> <./a3/animation-four-27.png> <./a3/animatio
-n-four-28.png> <./a3/animation-four-29.png> <./a3/animation-four-30.png> <./a3/
-animation-four-31.png> <./a3/animation-four-32.png> <./a3/animation-four-33.png
-> <./a3/animation-four-34.png> <./a3/animation-four-35.png> <./a3/animation-fou
-r-36.png> <./a3/animation-four-37.png> <./a3/animation-four-38.png> <./a3/anima
-tion-four-39.png> <./a3/animation-four-40.png> <./a3/animation-four-41.png> <./
-a3/animation-four-42.png> <./a3/animation-four-43.png> <./a3/animation-four-44.
-png> <./a3/animation-four-45.png> <./a3/animation-four-46.png> <./a3/animation-
-four-47.png> <./a3/animation-four-48.png> <./a3/animation-four-49.png> <./a3/an
-imation-four-50.png> <./a3/animation-four-51.png> <./a3/animation-four-52.png> 
-<./a3/animation-four-53.png> <./a3/animation-four-54.png> <./a3/animation-four-
-55.png> <./a3/animation-four-56.png> <./a3/animation-four-57.png> <./a3/animati
-on-four-58.png> <./a3/animation-four-59.png> <./a3/animation-four-60.png> <./a3
-/animation-four-61.png> <./a3/animation-four-62.png> <./a3/animation-four-63.pn
-g> <./a3/animation-four-64.png> <./a3/animation-four-65.png> <./a3/animation-fo
-ur-66.png> <./a3/animation-four-67.png> <./a3/animation-four-68.png> <./a3/anim
-ation-four-69.png> <./a3/animation-four-70.png> <./a3/animation-four-71.png> <.
-/a3/animation-four-72.png> <./a3/animation-four-73.png> <./a3/animation-four-74
-.png> <./a3/animation-four-75.png> <./a3/animation-four-76.png> <./a3/animation
--four-77.png> <./a3/animation-four-78.png> <./a3/animation-four-79.png> <./a3/a
-nimation-four-80.png> <./a3/animation-four-81.png> <./a3/animation-four-82.png>
- <./a3/animation-four-83.png> <./a3/animation-four-84.png> <./a3/animation-four
--85.png> <./a3/animation-four-86.png> <./a3/animation-four-87.png> <./a3/animat
-ion-four-88.png> <./a3/animation-four-89.png> <./a3/animation-four-90.png> <./a
-3/animation-four-91.png> <./a3/animation-four-92.png> <./a3/animation-four-93.p
-ng> <./a3/animation-four-94.png> <./a3/animation-four-95.png> <./a3/animation-f
-our-96.png> <./a3/animation-four-97.png> <./a3/animation-four-98.png> <./a3/ani
-mation-four-99.png> <./a3/animation-four-100.png> <./a3/animation-four-101.png>
- <./a3/animation-four-102.png> <./a3/animation-four-103.png> <./a3/animation-fo
-ur-104.png> <./a3/animation-four-105.png> <./a3/animation-four-106.png> <./a3/a
-nimation-four-107.png> <./a3/animation-four-108.png> <./a3/animation-four-109.p
-ng> <./a3/animation-four-110.png> <./a3/animation-four-111.png> <./a3/animation
--four-112.png> <./a3/animation-four-113.png> <./a3/animation-four-114.png> <./a
-3/animation-four-115.png> <./a3/animation-four-116.png> <./a3/animation-four-11
-7.png> <./a3/animation-four-118.png> <./a3/animation-four-119.png> <./a3/animat
-ion-four-120.png> <./a3/animation-four-121.png> <./a3/animation-four-122.png> <
-./a3/animation-four-123.png> <./a3/animation-four-124.png> <./a3/animation-four
--125.png> <./a3/animation-four-126.png> <./a3/animation-four-127.png> <./a3/ani
-mation-four-128.png> <./a3/animation-four-129.png> <./a3/animation-four-130.png
-> <./a3/animation-four-131.png> <./a3/animation-four-132.png> <./a3/animation-f
-our-133.png> <./a3/animation-four-134.png> <./a3/animation-four-135.png> <./a3/
-animation-four-136.png> <./a3/animation-four-137.png> <./a3/animation-four-138.
-png> <./a3/animation-four-139.png> <./a3/animation-four-140.png> <./a3/animatio
-n-four-141.png> <./a3/animation-four-142.png> <./a3/animation-four-143.png> <./
-a3/animation-four-144.png> <./a3/animation-four-145.png> <./a3/animation-four-1
-46.png> <./a3/animation-four-147.png> <./a3/animation-four-148.png> <./a3/anima
-tion-four-149.png> <./a3/animation-four-150.png> <./a3/animation-four-151.png> 
-<./a3/animation-four-152.png> <./a3/animation-four-153.png> <./a3/animation-fou
-r-154.png> <./a3/animation-four-155.png> <./a3/animation-four-156.png> <./a3/an
-imation-four-157.png> <./a3/animation-four-158.png> <./a3/animation-four-159.pn
-g> <./a3/animation-four-160.png> <./a3/animation-four-161.png> <./a3/animation-
-four-162.png> <./a3/animation-four-163.png> <./a3/animation-four-164.png> <./a3
-/animation-four-165.png> <./a3/animation-four-166.png> <./a3/animation-four-167
-.png> <./a3/animation-four-168.png> <./a3/animation-four-169.png> <./a3/animati
-on-four-170.png> <./a3/animation-four-171.png> <./a3/animation-four-172.png> <.
-/a3/animation-four-173.png> <./a3/animation-four-174.png> <./a3/animation-four-
-175.png> <./a3/animation-four-176.png> <./a3/animation-four-177.png> <./a3/anim
-ation-four-178.png> <./a3/animation-four-179.png> <./a3/animation-four-180.png>
- <./a3/animation-four-181.png> <./a3/animation-four-182.png> <./a3/animation-fo
-ur-183.png> <./a3/animation-four-184.png> <./a3/animation-four-185.png> <./a3/a
-nimation-four-186.png> <./a3/animation-four-187.png> <./a3/animation-four-188.p
-ng> <./a3/animation-four-189.png> <./a3/animation-four-190.png> <./a3/animation
--four-191.png> <./a3/animation-four-192.png> <./a3/animation-four-193.png> <./a
-3/animation-four-194.png> <./a3/animation-four-195.png> <./a3/animation-four-19
-6.png> <./a3/animation-four-197.png> <./a3/animation-four-198.png> <./a3/animat
-ion-four-199.png> <./a3/animation-four-200.png> [19
-
-] [20
-
-] [21
+] [18
 
 ]
 \tf@nav=\write7
@@ -1766,11 +1617,11 @@ ion-four-199.png> <./a3/animation-four-200.png> [19
 \tf@snm=\write9
 \openout9 = `prez.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 474.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 474.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 478.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 478.
  (./prez.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 474.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 474.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 478.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 478.
 Package rerunfilecheck Info: File `prez.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1778,13 +1629,13 @@ Package rerunfilecheck Info: File `prez.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 474.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 478.
  ) 
 Here is how much of TeX's memory you used:
- 20364 strings out of 493607
- 365142 string characters out of 3149945
- 460379 words of memory out of 3500000
- 22559 multiletter control sequences out of 15000+200000
+ 19548 strings out of 493607
+ 342819 string characters out of 3149945
+ 437488 words of memory out of 3500000
+ 22153 multiletter control sequences out of 15000+200000
  16251 words of font info for 48 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  49i,16n,59p,423b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1801,10 +1652,10 @@ blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss05
 exmf/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss144
 0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb>
-Output written on prez.pdf (21 pages, 7215742 bytes).
+Output written on prez.pdf (18 pages, 2610710 bytes).
 PDF statistics:
- 4085 PDF objects out of 4296 (max. 8388607)
- 1991 compressed objects within 20 object streams
- 43 named destinations out of 1000 (max. 500000)
- 10346 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 1652 PDF objects out of 1728 (max. 8388607)
+ 775 compressed objects within 8 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 3538 words of extra memory for PDF output out of 10000 (max. 10000000)
 
